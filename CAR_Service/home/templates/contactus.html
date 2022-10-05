@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/contactus.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullname">FULLNAME</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="enter full name"/>
+                </div>
+                
+                <div class="user-input-box">
+                    <label for="Email">EMAIL</label>
+                     <input type="text" id="email" name="username" placeholder="enter email"/>
+                </div>
+                
+                <div class="user-input-box">
+                    <label for="phone number">PHONE NUMBER</label>
+                    <input type="text" id="phonenumber" name="phonenumber" placeholder="enter phone number"/>
+                </div>
+                
+                <div class="user-input-box">
+                    <label for="password">ADDRESS</label>
+                    <input type="text" id="password" name="TYPE HERE" placeholder="TYPE HERE"/>
+                </div>
+                <div class="form-shape">
+                    <label for="query">Type of Query </label><br>
+
+                    <select name="myQuery" id="query">
+                        <option value="sel" selected>Select</option>
+                        <option value="ord">Registration related Issues</option>
+                        <option value="Site">Site related Issues</option>
+                        <option value="fed">Complaint related Issues</option>
+                        <option value="others">Others</option>
+                    </select><br>
+                </div>
+                <div class="user-input-box">
+                    <label for="confirm password"> QUERY DETAILS</label>
+                    <input type="text"
+                    placeholder="TYPE HERE"/><br>
+            </div>
+        </div>
+                
+                <div class="form-submit-btn">
+                    <input type="submit" a href="home.html" value="SEND DATA-->"> 
+                </div>
+            </div>
+            </div>
+
+        </form>
+
+    </div>
+ 
+</body>
+</html>

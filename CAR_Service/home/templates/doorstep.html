@@ -1,0 +1,124 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doorstep</title>
+    <link rel="stylesheet" href="{% static 'css/doorstep.css' %}">
+
+</head>
+<body>
+    <div class="dv-dv33" id="velocityWork">
+        <div class="dv-MuiContainer-root dv-MuiContainer-maxWidthLg">
+            <h1 class="head">Door Step Delivery</h1>
+            <h2>Is your Car pending for service? Are you worried about dragging it to the service center on your own? Well, There is no need to because our service experts will do the service at your doorstep.</h2>
+            <div class="card-block">
+                <div class="card">
+                    <figure>
+                        <img src="{% static 'images/d1.png'%}" alt="Search">
+                    </figure>
+                    <figcaption>
+                        Enter Address and<br>Contact details
+                    </figcaption>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="{% static 'images/d2.png'%}" alt="Token Amount">
+                    </figure>
+                    <figcaption>Select preferable<br>date-time slot</figcaption>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="{% static 'images/d3.png'%}" alt="Test Drive">
+                    </figure>
+                    <figcaption>Enter Vehicle<br>Details</figcaption>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="{% static 'images/d4.png'%}" alt="payment Closure">
+                    </figure>
+                    <figcaption>Delivery Executive<br>Assigned</figcaption>
+                </div>
+                <div class="card">
+                    <figure><img src="{% static 'images/d5.png'%}" alt="Home Delivery"></figure>
+                    <figcaption>Delivery done<br>at Doorstep</figcaption>
+                </div>
+            </div>
+<br><br><br><br><br>
+<div class="choose-carservice">
+    <br><br><br><br><br><br><br><br>
+    <h1 class="head">Choosing Doorstep Car Service!</h1><br>      
+    <p class="para1">All you have to do is to book an appointment with the company by going to their website and filling out a simple form. You will be able to pick your own time and the company executives will reach your home at your selected time and repair your car. They will even change any part if it gets damaged and will make sure that the entire process is completed without you taking any stress about visiting the car shop.</p>
+    <p class="para1">In order to avail of all the benefits of doorstep car repair, it is important to find the right company. You will be happy to know that Tars is Indi’s first and highest rated doorstep car services platform. Tars will save you from doing all the research as it will prove to be your one-stop destination. All car-related troubles offering convenience, excellent quality, and affordability.</p><br><br>
+</div>
+<div class="container">
+    <h1>REGISTRATION</h1>
+    <form action="#" method="post">
+        {% csrf_token %}
+        <div class="main-user-info">
+            <div class="user-input-box">
+                <label for="username">USERNAME</label>
+                <input type="text"
+                id="username"
+                name="username"
+                placeholder="Enter username"/>
+            </div>
+            
+            <div class="user-input-box">
+                <label for="password">PASSWORD</label>
+                <input type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"/>
+            </div>
+            
+            <div class="user-input-box">
+                <label for="Email">EMAIL</label>
+                <input type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email"/>
+            </div>
+            
+            <div class="user-input-box">
+                <label for="phone number">PHONE NUMBER</label>
+                <input type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder="Enter phone number"/>
+            </div>
+            
+            <div class="user-input-box">
+                <label for="address">ADDRESS</label>
+                <input type="text"
+                id="address"
+                name="address"
+                placeholder="Enter Address"/>
+            </div>
+            
+            <div class="user-input-box">
+                <label for="car details">CAR DETAILS</label>
+                <input type="text"
+                id="details"
+                name="details"
+                placeholder="enter full name"/>
+            </div>
+        </div>
+        
+            <div class="checkbox" >
+                <input type="checkbox" >
+                <a href="#">I, hearby declare that I agree the Terms and Conditions provided by the company policy </a>
+            </div>
+            <div class="form-submit-btn">
+                <input href="#" type="submit" value="Register" > 
+            </div>
+        </div>
+        </div>
+
+    </form>
+
+</div>
+</body>
+</html>

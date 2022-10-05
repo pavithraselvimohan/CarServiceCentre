@@ -1,0 +1,254 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dv-dv33 {
+    padding: 35px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.card{
+    float: left;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*user agent stylesheet*/
+div {                                           /*same error as marked below*/
+    display: block;
+}
+
+.velocity-section {
+    font-family: sans-serif;
+}
+body .container-fluid, body .container-fluid[role="main"] {
+    max-width: 100%!important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cera Pro';
+    background: #f8f8f8;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    color: #30343e;
+    font-size: 1rem;
+    font-family: 'Cera Pro'!important;
+    font-stretch: normal;
+}
+body {
+    color: #30343e;
+    font-size: 1rem;
+    font-family: 'Cera Pro'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 14px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(0,0,100);
+    color: #fff;
+   
+}
+
+.head:hover{
+    background-color: #45b6fe;
+    color: #fff;
+}
+
+.para1{
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    line-height: 2;     
+}
+
+/*door_step registration form*/
+
+.container h1{
+    color: whitesmoke;
+}
+
+.container .a{
+    color: whitesmoke;
+}
+
+
+
+
+.container{
+    
+    height: 100vh;
+    width: 617px;
+    max-width: 650px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/CAR_Service/home/static/images/service.jpg");
+    background-size: cover;
+    background:rgba(0, 0, 0, 0.493);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+
+}
+
+.container .form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+
+}
+
+.container .main-user-info{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 20px 0;  
+}
+
+.container .user-input-box:nth-child(2n){
+    justify-content: end;
+
+}
+
+.container .user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+
+}
+
+.container .user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+
+}
+
+.container .user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline:none;
+    border: 1px solid #000064;
+    padding: 0 10px;
+
+}
+
+
+.container .gender-category label{
+    padding: 0 20px 0 5px;
+
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+
+}
+
+.container .form-submit-btn{
+    margin-top: 40px;
+
+}
+
+.container .form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    background:#000064;
+
+}
+
+.container .form-submit-btn input:hover{
+    background: #45b6fe;
+    color: white;
+
+}
+
+@media(max-width: 600px){
+    .container{
+        min-width: 280px;
+
+    }
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .user-input-box:nth-child(2n){
+        justify-content: space-between;   
+    }
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+
+    }
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+
+    }
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+
+
